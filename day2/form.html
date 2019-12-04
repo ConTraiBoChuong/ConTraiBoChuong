@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đăng nhập</title>
+</head>
+<body>
+        <pre>
+            Thẻ input có type text,...
+            có các thuộc tính type ( kiểu của ô input )
+            thuộc tính name ( tên của ô input ) viết liên và không dấu
+            thuộc tính value="" ( giá trị của input )
+            placeholder ( hiện ra 1 văn bản để gợi ý cho người dùng biết cần nhập cái
+            gì vào ô input và nó chỉ hiện khi ô input rỗng )
+            thẻ label là thẻ nhãn cho 1 ô input
+            thẻ buttin là thẻ nút ấn
+            thẻ select chuawscasc option
+            thẻ option có thuộc tính quan trọng là value=" chính là giá trị của option
+        </pre>
+    <div>
+        <form name="dangky" method="post" action="">
+            <div>
+                <label>Họ tên</label>
+                <input type="text" name="hoten" value="" placeholder="nhập họ tên">
+            </div>
+            <div>
+                <label>Số điện thoại</label>
+                <input type="text" name="sdt" value="" placeholder="nhập sdt">
+                <button>Mã xác nhận</button>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="emai" name="email" value="" placeholder="nhập email">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" value="" placeholder="nhập password">
+            </div>
+            <div>
+                <label>Giới tính</label>
+                <input type="radio" name="GT" value="nu"> nữ
+                <input type="radio" name="GT" value="nam" checked> nam
+                <!-- trong này name phải để giống nhau -->
+            </div>
+            <div>
+                <label> Tháng</label>
+                <select name="thang" multiple>
+                    <!-- multiple là để chọn đc nhiều giá trị, nếu muốn chọn 1 giá trị thì bỏ đi -->
+                    <option value="1">tháng 1</option>
+                    <option value="2">tháng 2</option>
+                    <option value="3">tháng 3</option>
+                    <option value="4" selected>tháng 4</option> <!-- lấy làm giá trị ban đầu -->
+                </select>
+            </div>
+            <div>
+                <label>Địa chỉ</label>
+                <textarea name="diachi" value="" placeholder="nhập địa chỉ" rows="10" cols="50"></textarea>
+            </div>
+            <div>
+                <label>Sở thích</label>
+                <input type="checkbox" name="choi1" value=""> game1
+                <input type="checkbox" name="choi2" value="" > game2
+            </div>
+            <div>
+                <input type="submit" name="gui" value="Gửi">
+                <!-- khi click vào nút này thì tất cả dữ liệu sẽ đc gửi đến đích đc chỉ định trong thuộc tính action                        của form-->
+            </div>
+        </form>
+    </div>
+</body>
+</html>

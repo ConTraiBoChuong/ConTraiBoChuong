@@ -1,0 +1,15 @@
+h1  {
+    color: red;
+}
+h2  {
+    color: yellow;
+    background: lightseagreen;
+}
+#a {
+    height: 50px;
+    width: 500px;
+    background-color: powderblue;
+}
+#b {
+    background-image: url("Hình nên 01.jpg");
+}

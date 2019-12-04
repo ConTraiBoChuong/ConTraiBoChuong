@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cách 3: nhúng CSS</title>
+    <link rel="stylesheet"  href="css_001.css" >
+</head>
+<body>
+
+        <pre>
+            3 cách để chèn mã vào trong 1 trang html
+            c1: chèn luôn vào trong dòng cần css
+            c2: viết trong cùng 1 trang với html
+            c3: tạo 1 file CSS riêng < nên dùng cách này >
+        </pre>
+
+        <pre>
+            cách thuộc tính nền trong CSS
+            1. backgroud-color ( màu nền )
+            2. backgroud-image ( ảnh nền )
+            3. backgroud-repeat ( có nên lặp ảnh nền khi mà kích thước lớn hơn ảnh nền )
+            4. backgroud-position ( xác định vị trí của ảnh nền )
+            5. background-attachment ( ảnh nền có cố định trong 1 file html không )
+
+            Chú ý :
+            trong các thuộc tính CSS luôn có giá trị mặc định
+            ví dụ thuộc tính background-color ( không màu )
+            thuôc tính background-image ( none ) không có ảnh nền
+            thuộc tính background-repeat ( repeat ) luôn luôn lặp lại
+            Khi giá trị mặc định có viết hay không cũng không có tác dụng
+
+
+            Cú pháp background-image :
+            background-image: url("đường dẫn của hình ảnh");
+        </pre>
+
+        <div id="b">
+            <h1>anh Quyền vô đối</h1>
+            <div id="a">
+                <h2>hello hello</h2>
+            </div>
+            <h2>hello hello3</h2>
+            <pre>
+                Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget
+                felis porttitor volutpat. Proin eget tortor risus. Pellentesque
+                in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta
+                dapibus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit,
+                eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque
+                , auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus suscipit
+                tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam
+                vehicula elementum sed sit amet dui.
+            </pre>
+        </div>
+
+</body>
+</html>
